@@ -1,6 +1,4 @@
-Ottima scelta! Usare EWISER come plugin di spaCy ti risparmierà un sacco di tempo e di righe di codice.
-
-Ecco la lista definitiva dei comandi da eseguire nel tuo terminale (Anaconda Prompt) per avere l'ambiente pronto all'uso. Copia e incolla questi comandi uno alla volta:
+La cartella ewiser non è stata inserita in git per un problema di repository contrastanti
 
 ### 1. Preparazione dell'ambiente Conda
 
