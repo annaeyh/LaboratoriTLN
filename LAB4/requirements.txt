@@ -1,0 +1,8 @@
+umap-learn
+hdbscan
+bertopic
+pandas
+sentence_transformers
+huggingface_hub
+nltk
+Bio

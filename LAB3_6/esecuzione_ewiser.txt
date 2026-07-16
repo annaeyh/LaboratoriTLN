@@ -1,0 +1,53 @@
+Ottima scelta! Usare EWISER come plugin di spaCy ti risparmierà un sacco di tempo e di righe di codice.
+
+Ecco la lista definitiva dei comandi da eseguire nel tuo terminale (Anaconda Prompt) per avere l'ambiente pronto all'uso. Copia e incolla questi comandi uno alla volta:
+
+### 1. Preparazione dell'ambiente Conda
+
+```bash
+# Crea un ambiente pulito con Python 3.7
+conda create -n ewiser_env python=3.7 -y
+
+# Attiva l'ambiente
+conda activate ewiser_env
+
+# Installa PyTorch (versione CPU)
+conda install pytorch==1.6.0 cpuonly -c pytorch -y
+
+```
+
+### 2. Installazione delle dipendenze complesse
+
+Questi comandi usano pacchetti pre-compilati e canali specifici per evitare gli errori di compilazione su Windows:
+
+```bash
+# Installa torch-scatter e torch-sparse
+pip install https://data.pyg.org/whl/torch-1.6.0%2Bcpu/torch_scatter-2.0.5-cp37-cp37m-win_amd64.whl
+pip install https://data.pyg.org/whl/torch-1.6.0%2Bcpu/torch_sparse-0.6.7-cp37-cp37m-win_amd64.whl
+
+# Installa fairseq, bitarray e la versione corretta di spaCy (2.x) tramite Conda
+conda install -c conda-forge bitarray fairseq "spacy<3.0" -y
+
+```
+
+### 3. Installazione di EWISER e del modello linguistico
+
+```bash
+# Clona la repository
+git clone https://github.com/SapienzaNLP/ewiser.git
+
+# Entra nella cartella
+cd ewiser
+
+# Installa i requisiti rimanenti
+pip install -r requirements.txt
+
+# Installa la libreria nel tuo ambiente
+pip install -e .
+
+# Scarica il modello base di spaCy per l'inglese
+python -m spacy download en_core_web_sm
+
+```
+
+---

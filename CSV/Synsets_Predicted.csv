@@ -1,0 +1,22 @@
+Term,Synset Medical,Synset Common,Synset Lesk Medical,Synset Lesk Common,Synset MFS,Synset EWISER Medical,Synset EWISER Common
+Discharge,discharge.n.04,discharge.n.02,free.v.06,dismissal.n.04,discharge.n.01,discharge.n.04,discharge.n.04
+Shock,shock.n.04,daze.n.01,shock.n.04,shock.n.07,daze.n.01,daze.n.01,daze.n.01
+Stroke,stroke.n.03,stroke.n.01,stroke.n.03,throw.n.03,stroke.n.01,stroke.n.03,stroke.n.01
+Block,obstruct.v.02,block.n.01,pulley.n.01,pulley.n.01,block.n.01,block.n.01,block.n.01
+Cast,cast.n.05,cast.n.01,mold.n.02,cast.v.05,cast.n.01,cast.n.05,cast.n.01
+Depression,depressive_disorder.n.01,depression.n.02,depressive_disorder.n.01,depressive_disorder.n.01,depression.n.01,depression.n.01,depression.n.02
+Head,head.n.01,head.n.04,principal.n.02,head.v.09,head.n.01,depression.n.01,head.n.04
+Cold,cold.n.01,cold.n.03,cold.n.01,cold.s.07,cold.n.01,coldness.n.03,cold.a.01
+Culture,culture.n.04,culture.n.01,culture.n.06,culture.n.06,culture.n.01,culture.n.04,culture.n.01
+Index,index.n.05,index.n.01,index.n.04,index.n.02,index.n.01,index.n.01,index.n.01
+Labor,parturiency.n.01,labor.n.01,parturiency.n.01,labor_movement.n.01,labor.n.01,parturiency.n.01,NON TROVATO
+Arch,arch.n.02,arch.n.01,arch.n.04,arch.n.04,arch.n.01,arch.n.02,NON TROVATO
+Arrest,asystole.n.01,apprehension.n.04,check.v.18,check.v.18,apprehension.n.04,arrest.n.02,apprehension.n.04
+Negative,negative.a.04,negative.n.01,negative.a.05,negative.s.08,negative.n.01,negative.a.02,negative.a.02
+Vessel,vessel.n.01,vessel.n.02,vessel.n.01,vessel.n.03,vessel.n.01,negative.a.02,vessel.n.02
+Valve,valve.n.01,valve.n.03,valve.n.02,valve.n.05,valve.n.01,valve.n.01,valve.n.02
+Tube,tube.n.04,tube.n.01,metro.n.01,tube.v.01,tube.n.01,tube.n.01,tube.n.01
+Cage,rib_cage.n.01,cage.n.01,cage.n.02,cage.v.01,cage.n.01,cage.n.01,cage.n.01
+Leg,leg.n.01,leg.n.03,peg.n.04,leg.n.02,leg.n.01,leg.n.01,leg.n.01
+Pupil,pupil.n.02,student.n.01,pupil.n.02,student.n.01,student.n.01,pupil.n.02,student.n.01
+Patient,patient.n.01,patient.a.01,patient.n.01,affected_role.n.01,patient.n.01,patient.n.01,patient.a.01

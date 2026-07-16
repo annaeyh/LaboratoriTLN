@@ -1,0 +1,22 @@
+English,Common,Medical,Entropy,Quintile
+Discharge,discharge.n.02,discharge.n.04,2.83,5
+Shock,daze.n.01,shock.n.04,2.71,5
+Stroke,stroke.n.01,stroke.n.03,2.57,5
+Block,block.n.01,obstruct.v.02,2.03,5
+Cast,cast.n.01,cast.n.05,1.92,4
+Depression,depression.n.02,depressive_disorder.n.01,1.87,4
+Head,head.n.04,head.n.01,1.86,4
+Cold,cold.n.03,cold.n.01,1.63,4
+Culture,culture.n.01 ,culture.n.04,1.61,3
+Index,index.n.01,index.n.05,1.58,3
+Labor,labor.n.01,parturiency.n.01,1.51,3
+Arch,arch.n.01,arch.n.02,1.37,3
+Arrest,apprehension.n.04,asystole.n.01,1.23,2
+Negative,negative.n.01,negative.a.04,1.19,2
+Vessel,vessel.n.02,vessel.n.01,1.0,2
+Valve,valve.n.03,valve.n.01,0.92,1
+Tube,tube.n.01,tube.n.04,0.92,1
+Cage,cage.n.01,rib_cage.n.01,0.92,1
+Leg,leg.n.03,leg.n.01,0.66,1
+Pupil,student.n.01,pupil.n.02,0.5,1
+Patient,patient.a.01,patient.n.01,0.24,1
