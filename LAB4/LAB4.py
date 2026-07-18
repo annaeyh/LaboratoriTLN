@@ -48,7 +48,7 @@ def print_representative_docs(topic_model, topic_info):
         for i in range(len(representative_docs)):
             print("\t\t\t" + representative_docs[i])
 
-# Creaz
+# Creazione grafici
 def visualize(topic_model, data, reduced_embeddings):
     fig_docs = topic_model.visualize_documents(data, reduced_embeddings=reduced_embeddings, hide_document_hover=False)
     fig_bar = topic_model.visualize_barchart(top_n_topics=10)
